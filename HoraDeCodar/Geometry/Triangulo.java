@@ -2,7 +2,7 @@ package Geometry;
 
 import javax.swing.*;
 
-public class Retangulo {
+public class Triangulo {
     static int base;
     static int altura;
 
@@ -17,7 +17,7 @@ public class Retangulo {
     }
 
     static void exibeArea(){
-        JOptionPane.showMessageDialog(null,"A área do retângulo é: " + base * altura);
+        JOptionPane.showMessageDialog(null,"A área do triângulo é: " + base * altura / 2);
     }
 
     public static void main(String[] args) {

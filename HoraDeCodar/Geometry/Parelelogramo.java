@@ -2,10 +2,10 @@ package Geometry;
 
 import javax.swing.*;
 
-public class Retangulo {
+public class Parelelogramo {
     static int base;
     static int altura;
-
+    
     static void insiraBase(){
         String input = JOptionPane.showInputDialog("Digite a base");
         base = Integer.parseInt(input);
@@ -17,7 +17,7 @@ public class Retangulo {
     }
 
     static void exibeArea(){
-        JOptionPane.showMessageDialog(null,"A área do retângulo é: " + base * altura);
+        JOptionPane.showMessageDialog(null,"A área do paralelogramo é: " + base * altura);
     }
 
     public static void main(String[] args) {
